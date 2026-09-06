@@ -546,6 +546,7 @@ nav .text a img:hover {
     font-size: 16px;
     color: #5D5D5D;
     padding-top: 10px;
+	max-width: 250px;
 }
  
 .about-us .container .main .button a {
@@ -682,45 +683,6 @@ nav .text a img:hover {
     font-weight: 400;
     color: #6B5744;
     line-height: 1.6;
-}
-
-.services .dis .disclaimer {
-    max-width: 800px;
-    margin: 50px auto 0 auto;
-    text-align: center;
-}
-
-.services .dis .disclaimer p {
-    font-size: 18px;
-    font-family: "Cormorant Garamond", serif;
-    color: #7A6350;
-    line-height: 1.6;
-}
-
-.services .dis .disclaimer:last-child {
-    margin: 15px auto 0 auto;
-}
-
-.services .button {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.services .button a {
-    font-family: "Cormorant Garamond", serif;
-    padding: 16px 60px;
-    background-color: #4A3222;
-    box-shadow: 0 0 20px #432818;
-    border-radius: 40px;
-    font-size: 16px;
-    text-decoration: none;
-    color: #F7ECE1;
-    transition: 0.3s ease;
-}
-
-.services .button a:hover {
-    transform: translateY(-5px);
 }
 
 /* services */
@@ -862,6 +824,45 @@ nav .text a img:hover {
     color: #6B5744;
     line-height: 1.6;
     padding-bottom: 15px;
+}
+
+.price .disclaimer {
+    max-width: 400px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.price .disclaimer p {
+    font-size: 18px;
+    font-family: "Cormorant Garamond", serif;
+    color: #7A6350;
+    line-height: 1.6;
+}
+
+.price .disclaimer:last-child {
+    margin: 15px auto 0 auto;
+}
+
+.price .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.price .button a {
+    font-family: "Cormorant Garamond", serif;
+    padding: 16px 60px;
+    background-color: #4A3222;
+    box-shadow: 0 0 20px #432818;
+    border-radius: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #F7ECE1;
+    transition: 0.3s ease;
+}
+
+.price .button a:hover {
+    transform: translateY(-5px);
 }
  
 .price .main .box .drop .drop-label {
