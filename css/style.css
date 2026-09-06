@@ -1674,7 +1674,8 @@ nav .text a img:hover {
 	
 	.price .disclaimer p {
 	    font-size: 12px;
-	    max-width: 300px;
+	    max-width: 250px;
+		margin: 0 auto;
 	}
 
     .price .main .box .header h3 {
